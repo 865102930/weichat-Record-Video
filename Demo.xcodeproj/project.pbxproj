@@ -15,6 +15,13 @@
 		25D1642D1F70BA1E00E218C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D1642B1F70BA1E00E218C9 /* LaunchScreen.storyboard */; };
 		25D164381F70BA1E00E218C9 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D164371F70BA1E00E218C9 /* DemoTests.m */; };
 		25D164431F70BA1E00E218C9 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D164421F70BA1E00E218C9 /* DemoUITests.m */; };
+		25D1646B1F70BE1C00E218C9 /* done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D164601F70BE1C00E218C9 /* done@2x.png */; };
+		25D1646C1F70BE1C00E218C9 /* downCancle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D164611F70BE1C00E218C9 /* downCancle@2x.png */; };
+		25D1646D1F70BE1C00E218C9 /* repeat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D164621F70BE1C00E218C9 /* repeat@2x.png */; };
+		25D1646E1F70BE1C00E218C9 /* room_pop_up_lamp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D164631F70BE1C00E218C9 /* room_pop_up_lamp@2x.png */; };
+		25D1646F1F70BE1C00E218C9 /* LZBRecordProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D164661F70BE1C00E218C9 /* LZBRecordProcessView.m */; };
+		25D164701F70BE1C00E218C9 /* LZBRecordVideoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D164681F70BE1C00E218C9 /* LZBRecordVideoTool.m */; };
+		25D164711F70BE1C00E218C9 /* LZBRecordVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D1646A1F70BE1C00E218C9 /* LZBRecordVideoVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,16 @@
 		25D1643E1F70BA1E00E218C9 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D164421F70BA1E00E218C9 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		25D164441F70BA1E00E218C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25D164601F70BE1C00E218C9 /* done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "done@2x.png"; sourceTree = "<group>"; };
+		25D164611F70BE1C00E218C9 /* downCancle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "downCancle@2x.png"; sourceTree = "<group>"; };
+		25D164621F70BE1C00E218C9 /* repeat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "repeat@2x.png"; sourceTree = "<group>"; };
+		25D164631F70BE1C00E218C9 /* room_pop_up_lamp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "room_pop_up_lamp@2x.png"; sourceTree = "<group>"; };
+		25D164651F70BE1C00E218C9 /* LZBRecordProcessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBRecordProcessView.h; sourceTree = "<group>"; };
+		25D164661F70BE1C00E218C9 /* LZBRecordProcessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBRecordProcessView.m; sourceTree = "<group>"; };
+		25D164671F70BE1C00E218C9 /* LZBRecordVideoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBRecordVideoTool.h; sourceTree = "<group>"; };
+		25D164681F70BE1C00E218C9 /* LZBRecordVideoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBRecordVideoTool.m; sourceTree = "<group>"; };
+		25D164691F70BE1C00E218C9 /* LZBRecordVideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBRecordVideoVC.h; sourceTree = "<group>"; };
+		25D1646A1F70BE1C00E218C9 /* LZBRecordVideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBRecordVideoVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +118,7 @@
 		25D1641C1F70BA1E00E218C9 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				25D1645E1F70BE1C00E218C9 /* weiChat */,
 				25D164201F70BA1E00E218C9 /* AppDelegate.h */,
 				25D164211F70BA1E00E218C9 /* AppDelegate.m */,
 				25D164231F70BA1E00E218C9 /* ViewController.h */,
@@ -138,6 +156,39 @@
 				25D164441F70BA1E00E218C9 /* Info.plist */,
 			);
 			path = DemoUITests;
+			sourceTree = "<group>";
+		};
+		25D1645E1F70BE1C00E218C9 /* weiChat */ = {
+			isa = PBXGroup;
+			children = (
+				25D1645F1F70BE1C00E218C9 /* icon */,
+				25D164641F70BE1C00E218C9 /* RecordTool */,
+			);
+			path = weiChat;
+			sourceTree = "<group>";
+		};
+		25D1645F1F70BE1C00E218C9 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				25D164601F70BE1C00E218C9 /* done@2x.png */,
+				25D164611F70BE1C00E218C9 /* downCancle@2x.png */,
+				25D164621F70BE1C00E218C9 /* repeat@2x.png */,
+				25D164631F70BE1C00E218C9 /* room_pop_up_lamp@2x.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		25D164641F70BE1C00E218C9 /* RecordTool */ = {
+			isa = PBXGroup;
+			children = (
+				25D164651F70BE1C00E218C9 /* LZBRecordProcessView.h */,
+				25D164661F70BE1C00E218C9 /* LZBRecordProcessView.m */,
+				25D164671F70BE1C00E218C9 /* LZBRecordVideoTool.h */,
+				25D164681F70BE1C00E218C9 /* LZBRecordVideoTool.m */,
+				25D164691F70BE1C00E218C9 /* LZBRecordVideoVC.h */,
+				25D1646A1F70BE1C00E218C9 /* LZBRecordVideoVC.m */,
+			);
+			path = RecordTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +258,7 @@
 				TargetAttributes = {
 					25D164191F70BA1E00E218C9 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4GPDLP6DKN;
 						ProvisioningStyle = Automatic;
 					};
 					25D164321F70BA1E00E218C9 = {
@@ -246,8 +298,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25D1646E1F70BE1C00E218C9 /* room_pop_up_lamp@2x.png in Resources */,
 				25D1642D1F70BA1E00E218C9 /* LaunchScreen.storyboard in Resources */,
 				25D1642A1F70BA1E00E218C9 /* Assets.xcassets in Resources */,
+				25D1646C1F70BE1C00E218C9 /* downCancle@2x.png in Resources */,
+				25D1646D1F70BE1C00E218C9 /* repeat@2x.png in Resources */,
+				25D1646B1F70BE1C00E218C9 /* done@2x.png in Resources */,
 				25D164281F70BA1E00E218C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +330,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				25D164251F70BA1E00E218C9 /* ViewController.m in Sources */,
+				25D164701F70BE1C00E218C9 /* LZBRecordVideoTool.m in Sources */,
 				25D164221F70BA1E00E218C9 /* AppDelegate.m in Sources */,
+				25D1646F1F70BE1C00E218C9 /* LZBRecordProcessView.m in Sources */,
+				25D164711F70BE1C00E218C9 /* LZBRecordVideoVC.m in Sources */,
 				25D1641F1F70BA1E00E218C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,7 +485,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4GPDLP6DKN;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.workapp.www.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,7 +498,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4GPDLP6DKN;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.workapp.www.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +572,7 @@
 				25D164491F70BA1E00E218C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25D1644A1F70BA1E00E218C9 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +581,7 @@
 				25D1644C1F70BA1E00E218C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25D1644D1F70BA1E00E218C9 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +590,7 @@
 				25D1644F1F70BA1E00E218C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

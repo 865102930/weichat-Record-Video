@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LZBRecordVideoVC.h"
 
 @interface ViewController ()
 
@@ -16,13 +17,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [btn setTitle:@"点击" forState:UIControlStateNormal];
+    btn.frame = CGRectMake(100, 100, 100, 30);
+    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+
+- (void)click {
+    LZBRecordVideoVC *LZBVC = [[LZBRecordVideoVC alloc] init];
+    LZBVC.videoBlock = ^(NSString *path) {
+        NSLog(@"----->%@", path);
+    };
+    [self presentViewController:LZBVC animated:YES completion:nil];
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
